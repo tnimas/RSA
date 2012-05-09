@@ -1,0 +1,36 @@
+This program implements the encryption and decription algorithm RSA. 
+The program is written in the course of the Yaroslavl State Technical University basics of information security.
+
+You can use it to encrypt with a key of 1024 bits or less. 
+The program is written for educational purposes and hardly suitable for use in real projects. 
+Since the encryption speed is low and can not use a key length such as 2048 bits or more.
+
+To run the program requires MS Windows with .net framework 4.0
+To open the source code you can use  Visual Studio 2010 or later.
+
+To use:
+Create input.txt in the directory with the application.
+Enter "encrypt" in the first row and content for encryption in second. 
+Run the application, resulting in the file output.txt.
+Change the data in input.txt:
+"
+decrypt_<secret_key_values_from_output.txt>
+<encrypted_numbers_from_output.txt>
+"
+Example:
+"
+decrypt_1141767437,3736723013
+1033536525 0 2432010274 0 2912479932 0 1033536525 0 1032457496 0 1243236317 0 2237939005 0 1564549046 0 2790811102 0
+"
+
+Run the application again.
+As a result, output.txt will be the source content.
+"
+Secret key (d,n): 1141767437,3736723013
+
+test work
+"
+
+You can set key length, text encoding and input\output file name in exe.config file.
+
+You can contact me by sending an email to the box tnimas@gmail.com

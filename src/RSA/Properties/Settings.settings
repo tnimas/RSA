@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RSA.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="KeyLength" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Encode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">utf-16</Value>
+    </Setting>
+    <Setting Name="InputFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">input.txt</Value>
+    </Setting>
+    <Setting Name="OutputFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">output.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
